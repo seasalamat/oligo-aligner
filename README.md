@@ -24,4 +24,5 @@ python3 oligo-aligner.py -ref "reference sequence in fasta format" -oligo "oligo
 The output alignment file can then be loaded into any sequence alignment software (e.g. MEGA7, MEGAX, etc)
 
 **#limitations:**
+
 -The script only aligns oligos that have 100% match to the reference sequence. Degenerate sequences are not recognized. 
